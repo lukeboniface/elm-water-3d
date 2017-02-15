@@ -19,7 +19,7 @@ view model =
     div []
         [ div
             []
-            [ text "x"
+            [ text "x1"
             , input
                 [ type_ "range"
                 , Html.Attributes.min "0"
@@ -28,6 +28,7 @@ view model =
                 , onInput UpdateX1
                 ]
                 []
+            , text "x2"
             , input
                 [ type_ "range"
                 , Html.Attributes.min "0"
@@ -36,7 +37,7 @@ view model =
                 , onInput UpdateX2
                 ]
                 []
-            , text "y"
+            , text "y1"
             , input
                 [ type_ "range"
                 , Html.Attributes.min "0"
@@ -45,6 +46,7 @@ view model =
                 , onInput UpdateY1
                 ]
                 []
+            , text "y2"
             , input
                 [ type_ "range"
                 , Html.Attributes.min "0"
@@ -53,7 +55,7 @@ view model =
                 , onInput UpdateY2
                 ]
                 []
-            , text "t"
+            , text "t1"
             , input
                 [ type_ "range"
                 , Html.Attributes.min "0"
@@ -62,6 +64,7 @@ view model =
                 , onInput UpdateT1
                 ]
                 []
+            , text "t1"
             , input
                 [ type_ "range"
                 , Html.Attributes.min "0"
